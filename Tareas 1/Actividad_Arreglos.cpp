@@ -13,15 +13,16 @@ int main() {
     //  Asignación 
     numeros[2] = 100;  
 
-    //   prueba en pantalla
+    //   Probar en pantalla
     std::cout << "Contenido del arreglo:\n";
     for (int i = 0; i < 5; i++) {
         std::cout << "numeros[" << i << "] = " << numeros[i] << std::endl;
     }
 
-    //  suma de dos elementos
+    //  Sumar dos elementos
     int suma = numeros[0] + numeros[2];  
     std::cout << "\nSuma de numeros[0] + numeros[2] = " << suma << std::endl;
 
     return 0;
+
 }
